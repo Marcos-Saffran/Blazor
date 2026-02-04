@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{03C1A2F5-49D3-4E3C-903B-BE7D8EEA9960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizzaSite", "BlazingPizzaSite\BlazingPizzaSite.csproj", "{E968F629-684A-4CAA-839E-8F9B6B5F22DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{03C1A2F5-49D3-4E3C-903B-BE7D8EEA9960}.Release|x64.Build.0 = Release|Any CPU
 		{03C1A2F5-49D3-4E3C-903B-BE7D8EEA9960}.Release|x86.ActiveCfg = Release|Any CPU
 		{03C1A2F5-49D3-4E3C-903B-BE7D8EEA9960}.Release|x86.Build.0 = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Debug|x86.Build.0 = Debug|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x64.Build.0 = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x86.ActiveCfg = Release|Any CPU
+		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
