@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\Blaz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizzaSite", "BlazingPizzaSite\BlazingPizzaSite.csproj", "{E968F629-684A-4CAA-839E-8F9B6B5F22DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza", "BlazingPizza\BlazingPizza.csproj", "{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x64.Build.0 = Release|Any CPU
 		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x86.ActiveCfg = Release|Any CPU
 		{E968F629-684A-4CAA-839E-8F9B6B5F22DA}.Release|x86.Build.0 = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|x64.Build.0 = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Debug|x86.Build.0 = Debug|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|x64.Build.0 = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|x86.ActiveCfg = Release|Any CPU
+		{ABAD382D-BEE4-42BB-B2F1-2DA1764C6B57}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
