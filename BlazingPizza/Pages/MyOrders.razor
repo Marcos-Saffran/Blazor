@@ -35,7 +35,7 @@
             {
                 <div class="list-group-item">
                     <div class="col">
-                        <h5>@item.Order.CreatedTime.ToLongDateString()</h5>
+                        <h5>@item.Order.CreatedTime.ToLongDateString() - @item.Order.CreatedTime.ToLongTimeString()</h5>
                         Items:
                         <strong>@item.Order.Pizzas.Count()</strong>;
                         Total price:
@@ -47,8 +47,8 @@
                     @if (@item.StatusText != "Delivered")
                     {
                         <div class="col flex-grow-0">
-                            <a href="myorders/" class="btn btn-success">
-                                Track &gt;
+                            <a href="myorders/@item.Order.OrderId" class="btn btn-success">
+                                Acompanhar &gt;
                             </a>
                         </div>
                     }
