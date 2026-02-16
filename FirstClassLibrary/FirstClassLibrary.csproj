@@ -4,8 +4,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>My.FirstClassLibrary</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Nomes dos autores</Authors>
+    <Company>Nome da sua empresa</Company>
+    <Description>This is a Razor component library with a cool modal window component.</Description>
   </PropertyGroup>
-
+  
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
