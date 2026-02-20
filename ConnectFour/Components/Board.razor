@@ -3,8 +3,8 @@
     <style>
         :root {
             --board-bg: yellow; /** the color of the board **/
-            --player1: red; /** the color of player 1's pieces **/
-            --player2: blue; /** the color of player 2's pieces **/
+            --player1: @player1Color; /** the color of player 1's pieces **/
+            --player2: @player2Color; /** the color of player 2's pieces **/
         }
     </style>
 </HeadContent>
@@ -13,7 +13,13 @@
     @for (byte i = 0; i < 7; i++)
     {
         var col = i;
-        <span title="Click to play a piece" @onclick="() => PlayPiece(col)">🔽</span>
+
+        @if (State.TheBoard[col] == 0)
+        {
+            <span title="Click to play a piece" @onclick="() => PlayPiece(col)">🔽</span>
+        } else {
+            <span title="Column is full">✅</span>
+        }
     }
 </nav>
 
@@ -46,6 +52,9 @@
 
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
+
+    private string player1Color = "rgb(255, 0, 0)";
+    private string player2Color = "rgb(0, 0, 255)";
 
 
 
